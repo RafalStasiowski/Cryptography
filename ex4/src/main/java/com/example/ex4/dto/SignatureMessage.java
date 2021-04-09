@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class EncryptMessage {
+public class SignatureMessage {
     private String message;
+    private String signature;
 }

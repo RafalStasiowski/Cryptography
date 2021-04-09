@@ -18,7 +18,7 @@ import java.security.NoSuchAlgorithmException;
 
 
 @RestController
-@RequestMapping("/symetric/")
+@RequestMapping("/symmetric/")
 @AllArgsConstructor
 @Validated
 public class SymetricControler {
@@ -26,7 +26,7 @@ public class SymetricControler {
     public final SymetricService symetricService;
 
     @GetMapping("key")
-    public String generateKey() {
+    public String generateKey() throws NoSuchAlgorithmException {
         return symetricService.generateKey();
     }
 

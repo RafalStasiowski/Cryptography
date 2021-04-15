@@ -10,6 +10,8 @@ public class Coder {
         alphabet = alphabet1.getAlphabet();
 
     }
+
+
     private char getRandomLetter(String input) {
         Random random = new Random();
         int rand = Math.abs(random.nextInt()%input.length());

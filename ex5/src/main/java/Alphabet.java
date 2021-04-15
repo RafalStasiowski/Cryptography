@@ -10,14 +10,14 @@ public class Alphabet {
         alphabet.put("b","@");
         alphabet.put("c","nb");
         alphabet.put("d","zq");
-        alphabet.put("e","8wx");
+        alphabet.put("e","wx");
         alphabet.put("f","3");
         alphabet.put("g","5y");
         alphabet.put("h","8");
         alphabet.put("i","&ov");
         alphabet.put("j","d");
         alphabet.put("k","u");
-        alphabet.put("l","j()");
+        alphabet.put("l","j(");
         alphabet.put("m","m");
         alphabet.put("n","i");
         alphabet.put("o","e");
@@ -33,6 +33,8 @@ public class Alphabet {
         alphabet.put("y","!");
         alphabet.put("z","c");
         alphabet.put(" ","#a");
+        alphabet.put(".",")");
+        alphabet.put(",","/");
     }
 
     public Map getAlphabet() {

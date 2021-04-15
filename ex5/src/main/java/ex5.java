@@ -1,9 +1,12 @@
+import java.io.IOException;
+
 public class ex5 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Coder coder = new Coder();
         Decoder decoder = new Decoder();
-        System.out.println(coder.encode(("abcdefghijklmnopqrstuvwxyz")));
-        System.out.println(decoder.decode("p@bzw358&du(miek21grt7^*!c"));
+        Cipher cipher = new Cipher("tocrypt.txt","encrypted.txt","decrypted.txt",coder,decoder);
+        cipher.encode();
+        cipher.decode();
 
     }
 }

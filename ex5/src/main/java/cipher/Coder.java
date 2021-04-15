@@ -1,5 +1,5 @@
-import javax.management.relation.RelationNotFoundException;
-import java.lang.reflect.Array;
+package cipher;
+
 import java.util.*;
 
 public class Coder {

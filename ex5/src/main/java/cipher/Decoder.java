@@ -1,3 +1,5 @@
+package cipher;
+
 import java.util.Map;
 
     public class Decoder {

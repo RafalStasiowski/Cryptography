@@ -1,4 +1,11 @@
+package cipher;
+
+import Static.FileReader;
+import Static.FileWritter;
+
 import java.io.IOException;
+import java.util.Scanner;
+import java.util.logging.Logger;
 
 public class Cipher {
     private String text;
@@ -34,6 +41,13 @@ public class Cipher {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public void askForText() {
+        System.out.println("Insert encrypted text: ");
+        Scanner scanner = new Scanner(System.in);
+        text = scanner.nextLine();
+        System.out.println(decoder.decode(text));
 
     }
 

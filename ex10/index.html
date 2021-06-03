@@ -1,0 +1,27 @@
+<html>
+
+<head>
+<title>Ex 10</title>
+</head>
+
+<body>
+    <div>
+        <h2>Szyfruj wiadomość</h2>
+        <label>Wprowadź tekst do zakodowania w pliku tekstowym:</label><br/>
+        <input type="password" id="message" placeholder="Enter your secret message"></br>
+	<label>Załaduj plik graficzny:</label><br/>
+	<input type="file" id="imageLoader" name="imageLoader"/>
+	<canvas id="imageCanvas"></canvas>
+	<canvas id="textCanvas"></canvas>
+	<hr>
+	<h2>Odszyfruj wiadomość</h2>
+	<label>Załaduj zaszyfrowany plik graficzny:</label><br/>
+	<input type="file" id="imageLoader2" name="imageLoader2"/>
+	<canvas id="imageCanvas2"></canvas>
+    
+    </div>
+    
+    <script src="steganography.js"></script>
+</body>
+
+</html>
